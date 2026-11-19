@@ -35,4 +35,56 @@ filmes_crud/
 │   └── Filme.php
 │
 ├── repositories/
-│   └
+│   └── FilmeRepository.php
+│
+├── views/
+│   ├── index.php
+│   ├── criar.php
+│   ├── editar.php
+│   └── excluir.php
+│
+├── README.md
+└── exercicios.md
+```
+
+## Banco de dados
+
+**Nome:** `crud_filmes`
+
+**Tabela:** `filme`
+
+| Campo | Tipo |
+|---|---|
+| id | SERIAL (PK) |
+| titulo | VARCHAR(100) |
+| genero | VARCHAR(50) |
+| ano | INTEGER |
+| diretor | VARCHAR(100) |
+
+## Como executar o projeto
+
+1. Abra a pasta do projeto no VS Code.
+2. Configure a conexão com o PostgreSQL no arquivo `config/Database.php`.
+3. Abra o terminal na pasta principal do projeto.
+4. Execute o comando:
+
+```bash
+php -S localhost:8000
+```
+
+5. Acesse no navegador:
+
+```text
+http://localhost:8000/views/index.php
+```
+
+## Aprendizados
+
+Durante o desenvolvimento deste projeto, foi possível praticar:
+
+- Operações CRUD;
+- Conexão com banco de dados utilizando PDO;
+- Organização de classes e arquivos;
+- Utilização de interfaces;
+- Padrão Repository;
+- Integração entre PHP e PostgreSQL.
