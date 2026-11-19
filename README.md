@@ -11,7 +11,6 @@ O sistema permite cadastrar, visualizar, editar e excluir filmes, facilitando a 
 - PHP
 - PostgreSQL
 - HTML5
-- CSS3
 - PDO
 
 ## Funcionalidades
